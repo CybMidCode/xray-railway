@@ -6,13 +6,27 @@
       "settings": {
         "clients": [
           {
-            "id": "e1e83874-220a-427a-9492-4b56d59bc9b7"
+            "id": "e1e83874-220a-427a-9492-4b56d59bc9b7",
+            "flow": "xtls-rprx-vision"
           }
         ],
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "tcp"
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "dest": "www.microsoft.com:443",
+          "xver": 0,
+          "serverNames": [
+            "www.microsoft.com"
+          ],
+          "privateKey": "qCfy0sccsBBT-DxNJbA0F7QhztJo7USJhs30J5oJyGw",
+          "shortIds": [
+            "8dc18"
+          ]
+        }
       }
     }
   ],
